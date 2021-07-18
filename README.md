@@ -22,4 +22,4 @@ In this project the nav menu is dynamicaly created with JS and the active sectio
 
 ## Resources
 
-[MDN getBoundingClientRect()] (https://developer.mozilla.org/en-US/docs/Web/API/Element/getBoundingClientRect) to know which section is currently in the view port
+[MDN getBoundingClientRect()](https://developer.mozilla.org/en-US/docs/Web/API/Element/getBoundingClientRect) to know which section is currently in the view port
