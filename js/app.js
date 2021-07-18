@@ -28,7 +28,7 @@ function getActiveSection(){
     and active link, then add them to the current section
     */
     const sections = document.querySelectorAll("section");
-    const links = document.querySelectorAll("a");
+    const links = document.querySelectorAll("li a");
     for (let section of sections){
         const sectionTop = section.getBoundingClientRect().top;
         

@@ -11,6 +11,10 @@
 
 /* ---- Base Rules ---- */
 * {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
 
@@ -72,14 +76,17 @@ section {
 /* ---- Module Rules ---- */
 
 /* Navigation Styles*/
-.navbar__menu ul {
-    padding-left: 0;
-    margin: 0;
-    text-align: right;
+
+.navbar__menu{
+    background-color: #000;
+    padding: 10px;
+    position: relative;
 }
 
-.navbar__menu li {
-    display: inline-block;
+.navbar__menu ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .navbar__menu .menu__link {
@@ -87,7 +94,7 @@ section {
     padding: 1em;
     font-weight: bold;
     text-decoration: none;
-    color: #000;
+    color: #fff;
 }
 
 .navbar__menu .menu__link:hover {
@@ -100,6 +107,12 @@ section {
     background: #555;
     color: #cc3;
     transition: ease 0.3s all;
+}
+
+@media (max-width: 536px){
+    .main__hero {
+        padding-top: 3.5em;
+    }
 }
 
 /* Header Styles */
